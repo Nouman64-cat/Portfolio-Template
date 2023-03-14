@@ -1,0 +1,81 @@
+.Contact{
+  display: flex;
+  flex-direction: column;
+}
+
+.Contact__heading{
+  margin-top: 3rem;
+}
+.Contact__heading h2{
+  font-family: 'Manrope';
+  font-size: 55px;
+  margin-bottom: 0;
+}
+.Contact__heading p{
+  font-family: 'Manrope';
+  font-size: 1rem;
+  color: white;
+  margin-top: 1.5rem;
+  margin-bottom: 2.4rem;
+}
+.Contact__container{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.Contact__container--Name,
+.Contact__container--Email
+{
+  display: flex;
+  flex-direction: row;
+}
+
+.Contact__container--Name input,
+.Contact__container--Email input{
+  width: 100%;
+  height: 3.5rem;
+  border: none;
+  border-radius: 5px;
+  padding: 0 1rem;
+  margin-top: 1rem;
+  font-family: 'Manrope';
+  font-size: 1rem;
+  color: #333;
+}
+.Contact__container--Message{
+  display: flex;
+  flex-direction: row;
+}
+.Contact__container--Message textarea{
+  width: 100%;
+  height: 7rem;
+  border: none;
+  border-radius: 5px;
+  padding: 1rem 1rem;
+  margin-top: 1rem;
+  font-family: 'Manrope';
+  font-size: 1rem;
+  color: #333;
+}
+.Contact__container--Button{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+.Contact__container--Button button{
+  width: 10rem;
+  height: 3.5rem;
+  border: none;
+  border-radius: 5px;
+  background-color: #575757;
+  color: white;
+  font-family: 'Manrope';
+  font-size: 1rem;
+  margin-top: 1rem;
+  cursor: pointer;
+  letter-spacing: 0.06em;
+}
+.Contact__container--Button button:hover{
+  background-color: rgb(55, 55, 55);
+}

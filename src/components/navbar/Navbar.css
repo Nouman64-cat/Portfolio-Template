@@ -1,0 +1,75 @@
+.Navbar{
+  display: flex;
+  flex-direction: row;
+}
+.about--link{
+  text-decoration: none;
+  color: white;
+}
+.projects--link{
+  text-decoration: none;
+  color: white;
+}
+.contact--link{
+  text-decoration: none;
+  color: white;
+}
+.Navbar__container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  color: white;
+  font-family: 'Manrope';
+  font-weight: 600;
+  letter-spacing: 0.06em;
+}
+.Navbar__container--picture{
+  display: flex;
+  flex-direction: row;
+  margin-top: 0.25rem;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  margin-right: 2rem;
+  height: 53px;
+}
+.Navbar__container--picture img{
+  width: 53px;
+}
+.Navbar__container--picture img:hover{
+  cursor: pointer;
+  width: 60px;
+  height: 60px;
+}
+.Navbar__container--links{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+}
+.Navbar__container--links p:first-child{
+  margin-left: 14rem;
+}
+.Navbar__container--links p:first-child:hover{
+  text-decoration: none;
+  cursor: none;
+}
+.Navbar__container--links p{
+  margin-right: 2rem;
+}
+.Navbar__container--links p:hover{
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.Navbar__container--logo__container{
+  display: flex;
+  justify-content: flex-end;
+  padding-top: 0.5rem;
+  padding-left: 20rem;
+}
+.Navbar__container--logo__container--logo img{
+  width: 30px;
+}

@@ -1,0 +1,55 @@
+.Projects{
+  display: flex;
+  flex-direction: column;
+}
+.Projects__heading{
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 3rem;
+  font-family: "Manrope";
+  letter-spacing: 0.05em;
+
+}
+.Projects__heading h1{
+  font-size: 60px;
+}
+.Projects__container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.Projects__container__cardA{
+  border: 1px solid rgb(28, 28, 28);
+  border-radius: 3%;
+  font-family: 'Manrope';
+  -webkit-border-radius: 3%;
+  -moz-border-radius: 3%;
+  -ms-border-radius: 3%;
+  -o-border-radius: 3%;
+  align-items: flex-start;
+  width: 25%;
+  height: 430px;
+  box-shadow: 0 0 15px 10px rgba(0, 0, 0, 0.2);
+  justify-content: center;
+  
+}
+.Projects__container__cardA:hover{
+  box-shadow: 0 0 15px 10px rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+}
+.Projects__container__cardA p{
+  margin: 0;
+  padding: 0.5rem 1rem;
+  color: white;
+}
+.Projects__container__cardA h3{
+  padding-left: 0.2rem;
+}
+.Projects__container__cardA--image{
+  display: flex;
+  justify-content: center;
+  padding-top: 1rem;
+}
+.Projects__container__cardA--image img{
+  width: 70%;
+}
