@@ -7,7 +7,7 @@ import Footer from './components/footer/Footer.jsx'
 const App = () => {
   return (
     <div className='App'>
-      <div className='bg__color'>
+      <div className='bg__color3'>
         <Navbar />
         <About />
         <Projects />
