@@ -1,6 +1,6 @@
 
 import './Navbar.css'
-import LogoN from '../../assets/images/logo-n.png';
+import LogoN from '../../assets/images/N-logo.png';
 import nouman from '../../assets/images/nouman.png';
 const Navbar = () => {
   return (

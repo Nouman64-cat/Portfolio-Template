@@ -20,15 +20,21 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+@import url('https://fonts.googleapis.com/css2?family=Philosopher:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@300&family=Open+Sans:wght@600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Teko&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Kalam&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
 .section__padding{
   padding: 0 4rem;
 }
 .section__margin{
   margin: 0 4rem;
+}
+
+.primary__bg__color{
+  background: rgb(11, 11, 11);
 }
 .bg__color{
    /* ff 3.6+ */
@@ -49,18 +55,21 @@ code {
    /* global 94%+ browsers support */
    background:linear-gradient(90deg, rgba(238, 130, 238, 1) 0%, rgba(0, 0, 255, 1) 100%);
 }
+
 .gradient__text{
   background: linear-gradient(89.97deg, rgba(0, 0, 255, 1) 1.84%, rgb(126, 61, 126) 102.67%);;
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent
 }
+
 .gradient__text2{
-  background: linear-gradient(89.97deg, rgb(4, 221, 15) 1.84%, rgb(40, 107, 1) 102.67%);;
+  background:linear-gradient(90deg, rgba(33, 150, 243, 1) 0%, rgba(103, 58, 183, 1) 100%);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent
 }
+
 .bg__color2{
   /* ff 3.6+ */
   background:-moz-radial-gradient(circle at 0% 0%, rgba(78, 78, 80, 1) 0%, rgba(0, 0, 0, 1) 100%);
@@ -75,5 +84,24 @@ code {
   background:-ms-radial-gradient(circle at 0% 0%, rgba(78, 78, 80, 1) 0%, rgba(0, 0, 0, 1) 100%);
 
   /* global 92%+ browsers support */
-  background:radial-gradient(circle at 0% 0%, rgba(78, 78, 80, 1) 0%, rgba(0, 0, 0, 1) 100%);
+  background:radial-gradient(circle at 0% 0%, rgba(78, 78, 80, 1) 0%, rgb(15, 15, 15) 100%);
+}
+.bg__color3{
+  /* ff 3.6+ */
+  background:-moz-linear-gradient(90deg, rgba(46, 46, 46, 1) 0%, rgba(25, 16, 40, 1) 100%); 
+
+  /* safari 5.1+,chrome 10+ */
+  background:-webkit-linear-gradient(90deg, rgba(46, 46, 46, 1) 0%, rgba(25, 16, 40, 1) 100%);
+
+  /* opera 11.10+ */
+  background:-o-linear-gradient(90deg, rgba(46, 46, 46, 1) 0%, rgba(25, 16, 40, 1) 100%);
+
+  /* ie 6-9 */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#191028', endColorstr='#2E2E2E', GradientType=0 );
+
+  /* ie 10+ */
+  background:-ms-linear-gradient(90deg, rgba(46, 46, 46, 1) 0%, rgba(25, 16, 40, 1) 100%);
+
+  /* global 94%+ browsers support */
+  background:linear-gradient(90deg, rgba(46, 46, 46, 1) 0%, rgba(25, 16, 40, 1) 100%);
 }

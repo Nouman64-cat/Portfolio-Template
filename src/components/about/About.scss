@@ -23,11 +23,11 @@
 }
 .About__container--text h1{
   font-weight: 700;
-  font-size: 50px;
+  font-size: 60px;
   letter-spacing: 0.06em;
   margin-top: 0;
   margin-bottom: 0;
-  font-family: "Manrope";
+  font-family: "Philosopher";
 }
 .About__container--paragraph{
   display: flex;
@@ -71,12 +71,13 @@
     height: 200px;
     border: 1 px solid #ccc;
     // background: rgba(255,255,255, 0.4);
-    background: rgba(215, 201, 218, 0.4);
+    background: rgba(218, 156, 231, 0.4);
     font-size: 100px;
     display: flex;
     justify-content: center;
     align-items: center;
-    box-shadow: 0 0 20px 0px lightyellow;
+    // box-shadow: 0 0 20px 0px lightyellow;
+    box-shadow: 0 0 20px 0px rgb(213, 83, 218);
   }
   .face1{
     transform: translateZ(100px);
